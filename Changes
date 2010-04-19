@@ -1,4 +1,7 @@
 Revision history for Perl extension Acme::GodoWord
 
-0.01    Mon Apr 19 11:14:22 2010
-        - original version
+0.00002     Mon Apr 19 13:23:40 2010
+            - fix mistake in POD
+
+0.00001     Mon Apr 19 11:14:22 2010
+            - original version

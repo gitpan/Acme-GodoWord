@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = '0.00001';
+our $VERSION = '0.00002';
 
 use Text::TinySegmenter;
 
@@ -63,7 +63,7 @@ Acme::GodoWord - Japanese tokenizer like master of babel
     my @tokens = Acme::GodoWord->tokenize( $message );
     
     # print q{【あなた」「には」「みえない】};
-    print Acme::GodoWord->godowordize( $message );
+    print Acme::GodoWord->babelize( $message );
 
 =head1 DESCRIPTION
 
